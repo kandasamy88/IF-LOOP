@@ -1,0 +1,8 @@
+weight=int(input("enter your weight"))
+unit=str(input("Lbs or Kg: "))
+if unit=="k":
+    weight=weight*2.204
+    print("your weight in lbs:", weight)
+elif unit=="l":
+    weight=weight*0.453
+    print("your weight in kgs:", weight)
