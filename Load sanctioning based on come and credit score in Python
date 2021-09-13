@@ -1,0 +1,12 @@
+applicant_income = int(input("enter the applicant income in $"))
+print(int(applicant_income))
+applicant_creditscore = int(input("enter the credit score"))
+print(int(applicant_creditscore))
+if applicant_income>10000 and applicant_creditscore>100:
+    print("Loan Sanctioned")
+elif applicant_income<=10000 and applicant_income>5000 and applicant_creditscore>100:
+    print("Loan sanctioned with conditions")
+elif applicant_income<5000 and applicant_creditscore>100:
+    print("Income in sufficiant, Better luck next time")
+else:
+    print("betterluck next time")
